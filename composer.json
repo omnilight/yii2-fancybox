@@ -1,0 +1,23 @@
+{
+    "name": "omnilight/yii2-fancybox",
+    "description": "FancyBox asset for Yii2 framework",
+    "keywords": ["yii2", "fancybox"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/fancybox": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "omnilight\\assets\\": ""
+        }
+    }
+}
