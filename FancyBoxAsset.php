@@ -10,13 +10,13 @@ use yii\web\AssetBundle;
  */
 class FancyBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/slick-carousel/slick';
+    public $sourcePath = '@bower/fancybox/source';
 
     public $js = [
-        'slick.js'
+        'jquery.fancybox.pack.js'
     ];
     public $css = [
-        'slick.css',
+        'jquery.fancybox.css',
     ];
 
     public $depends = [
